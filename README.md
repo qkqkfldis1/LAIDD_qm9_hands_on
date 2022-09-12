@@ -10,6 +10,10 @@
 - SmilesPE
 - transformers
 
+# Data preparation
+1. https://github.com/FabianFuchsML/se3-transformer-public/tree/master/experiments/qm9 에 있는, qm9 dataset [link](https://drive.google.com/file/d/1EpJG0Bo2RPK30bMKK6IUdsR5r0pTBEP0/view) 를 사용하여 QM9_data.pt 다운로드
+2. ./data directory 로 옮기시면 됩니다. 
+
 # running
 ~~~
 python train_transformer.py --config ./configs/graph_transformer.yaml
